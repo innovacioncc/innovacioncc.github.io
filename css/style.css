@@ -1,0 +1,207 @@
+
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size:3rem;
+    color:var(--c-main);
+}
+.socialicon{
+    height: 6rem;
+    margin:2rem 0.5rem;
+}
+
+/***BANNER START*/
+
+#Banner_zone
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--c-main);
+    background-image:url("../img/Banner.jpeg");
+    background-size: cover;
+    background-position-x:65%;
+    min-height: 55rem;
+}
+.Top_News{
+    display: flex;
+    justify-content: center; align-items: center; text-align: center;
+    background: linear-gradient(130deg,  var(--c-accent1) 80%, transparent);
+}
+.Top_News > p {
+    padding: 1rem;
+    font-size:1.8rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
+    color:white;
+
+}
+
+#Banner{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40rem;
+    background: linear-gradient(90deg, var(--c-accent1), var(--c-main) 30%, transparent);
+}
+#Banner p{
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+
+#socialnets{
+    display: flex;
+    justify-content:center; align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(80deg, var(--c-main) 60%, transparent);
+    color: var(--c-accent2);
+}
+#socialnets > p{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/***BANNER END*/
+
+#Descrip, #Actividades, #Eventos, #Miembros, #finaldata, .evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5rem 0;
+}
+
+#Descrip{
+    text-align: center;
+}
+
+#Actividades>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; align-items: center;
+    margin:3rem 0;
+}
+
+.actividad{
+    display: flex;
+    justify-content: center; align-items: center; text-align: center;
+    width: 18rem; height: 18rem;
+    margin:0.5rem;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right,var(--c-accent2) , var(--c-accent1)) border-box;
+    border-radius:50%;
+    border:10px solid transparent;
+}
+
+.actividad p{
+    font-weight:600;
+    font-size:2.3rem;
+    margin:0;
+    color:var(--c-main);
+}
+#eventos_slider{
+    width: 100%;
+}
+.evento{
+    padding:1rem 0;
+    background-color: var(--c-main);
+}
+.evento>img{
+    height: auto;
+    max-height: 60rem;
+    width: 100%;
+}
+.evento>div{
+    min-height: 6rem; width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    color:  var(--c-accent1);
+    font-weight: 500;
+}
+
+#Miembros > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0; padding:3rem 0 0;
+    font-size: 1.4rem;
+    justify-content: center;
+}
+
+.businessslide{
+    width: 32rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin:0.5rem; padding:0;
+}
+
+.businessslide:hover{
+    justify-content: end;
+}
+
+.businesslogo, .businessdescription{
+    text-align: center;
+    background-color: white;
+    border-radius: 2rem 2rem 2rem 2rem;
+    cursor: pointer;
+    width:100%; height: 100%;
+    flex-shrink: 0;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right,var(--c-main), var(--c-accent1)) border-box;
+    border: 1px solid transparent;
+}
+
+.businessdescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(-45deg, var(--c-main-low), var(--c-main));
+    color:white;
+    border-color: transparent;
+}
+
+.businesslogo img{
+   max-height:23rem;
+   max-width: 23rem;
+}
+
+#finaldata{
+    background-color: var(--c-main);
+    color:white;
+}
+#finaldata>p{
+    text-align: center;
+    font-size:3rem;
+}
+#finaldata>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .socialicon{
+        width: 3rem; height: 3rem;
+    }
+
+    #Banner{
+        background: linear-gradient(90deg, var(--c-main), var(--c-main) 30%, transparent);
+    }
+
+    #Banner p{
+        color:white;
+        text-align: left;
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+
+}

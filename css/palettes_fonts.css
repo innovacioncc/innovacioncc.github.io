@@ -1,0 +1,27 @@
+:root {
+    /*Palette 1*/
+    --c-main:#0047AB;
+    --c-main-low:hsl(215, 90%, 60%);
+    --c-accent1:#f39c12;
+    --c-accent2:#2ECC71;
+
+}
+
+
+html{
+    font-size: 10px; /*Initial font-size adjusted to 10px*/
+    letter-spacing: 0.1rem;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    font-size:1.9rem;
+    letter-spacing: .2rem;
+}
+p {
+    margin:0.7rem 2rem;
+}
+
