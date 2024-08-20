@@ -152,10 +152,9 @@ a{
     flex-direction: row;
     overflow: hidden;
     margin:0.5rem; padding:0;
-    user-select: none; touch-action: pan-y, pan-x;
+    user-select: none; touch-action: manipulation;
 
 }
-
 
 .businessslide:hover, .businessslide:active{
     justify-content: end;
