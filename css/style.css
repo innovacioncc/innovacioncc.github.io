@@ -152,16 +152,14 @@ a{
     flex-direction: row;
     overflow: hidden;
     margin:0.5rem; padding:0;
-    touch-action: none;
 
 }
 
-.businessslide *{
+.businessslide, .businessslide *{
     touch-action: none;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
-    touch-action: none;
 }
 
 .businessslide:hover, .businessslide:active{
