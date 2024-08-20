@@ -9,6 +9,17 @@ h2{
     height: 6rem;
     margin:2rem 0.5rem;
 }
+.socialicon:hover{
+    height: 6.5rem;
+    margin:1.5rem 0.25rem;
+}
+a{
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
 
 /***BANNER START*/
 
@@ -190,9 +201,12 @@ h2{
 
 @media only screen and (max-width: 800px) {
     .socialicon{
-        width: 3rem; height: 3rem;
+        height: 4rem;
     }
-
+    .socialicon:hover{
+        height: 4.5rem;
+        margin:1.5rem 0.25rem;
+    }
     #Banner{
         background: linear-gradient(90deg, var(--c-main), var(--c-main) 30%, transparent);
     }
@@ -203,5 +217,6 @@ h2{
         font-weight: 700;
         font-size: 3.5rem;
     }
+
 
 }
