@@ -172,11 +172,11 @@ a{
     touch-action: manipulation;
 }
 
-.businesslogo *, .businessdescription *{
-    user-select: none; touch-action: none;
+.businesslogo>img, .businessdescription>p{
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    touch-action: manipulation;
 }
 
 .businessdescription{
