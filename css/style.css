@@ -161,7 +161,7 @@ a{
     user-select: none; /* Standard syntax */
 }
 
-.businessslide:hover{
+.businessslide:hover, .businessslide:active{
     justify-content: end;
 }
 
