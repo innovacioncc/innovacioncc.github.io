@@ -152,6 +152,7 @@ a{
     flex-direction: row;
     overflow: hidden;
     margin:0.5rem; padding:0;
+    touch-action: none;
 
 }
 
@@ -161,7 +162,7 @@ a{
     user-select: none; /* Standard syntax */
 }
 
-.businessslide:hover, .businessslide:active, .businessslide:focus{
+.businessslide:hover, .businessslide:active{
     justify-content: end;
 }
 
