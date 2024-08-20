@@ -156,12 +156,6 @@ a{
 
 }
 
-.businessslide *{
-    user-select: none; touch-action: none;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
 
 .businessslide:hover, .businessslide:active{
     justify-content: end;
@@ -176,6 +170,17 @@ a{
     background: linear-gradient(white, white) padding-box,
     linear-gradient(to right,var(--c-main), var(--c-accent1)) border-box;
     border: 1px solid transparent;
+    user-select: none; touch-action: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.businesslogo *, .businessdescription *{
+    user-select: none; touch-action: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .businessdescription{
