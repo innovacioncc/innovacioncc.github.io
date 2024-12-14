@@ -1,0 +1,46 @@
+h3{
+    text-align: center; font-weight: 600; font-size:3rem;
+    margin:4rem 6rem 0rem;
+}
+
+h4{
+    text-align: center; font-weight: 400; font-size:2rem;
+    margin:2rem 6rem 4rem;
+}
+
+h5{
+    text-align: center; font-weight: 400; font-size:2rem;
+    margin:8rem 6rem 4rem;
+}
+
+.noticia{
+    margin: 8rem 0rem;
+}
+
+.noticia, .noticia p, .noticia li, .noticia a p{
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+}
+
+.noticia > p{
+    margin: 3rem 6rem;
+    line-height: 2rem;
+}
+
+.noticia li{
+    margin: 2rem 6rem 1rem 10rem;
+}
+.noticia a{
+    display: flex;
+    justify-content: left;
+    margin: 1rem 6rem;
+    height: auto;
+}
+.noticia a p{
+    margin: 0rem;
+}
+.noticia a p:hover{
+    color: blue;
+}
