@@ -5,19 +5,28 @@ h3{
 
 h4{
     text-align: center; font-weight: 400; font-size:2rem;
-    margin:2rem 6rem 4rem;
+    margin:2rem 6rem 0rem;
+}
+h5{
+    text-align: center; font-weight: 600; font-size:1.5rem;
+    margin:1rem 6rem 0rem;
 }
 
-h5{
-    text-align: center; font-weight: 400; font-size:2rem;
-    margin:8rem 6rem 4rem;
-}
 
 .noticia{
     margin: 8rem 0rem;
 }
 
-.noticia, .noticia p, .noticia li, .noticia a p{
+.noticia img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+
+}
+
+.noticia>p, .noticia li, .noticia a>p, .noticia a>pre{
     font-size: 1.5rem;
     text-align: justify;
     text-justify: inter-word;
@@ -38,9 +47,37 @@ h5{
     margin: 1rem 6rem;
     height: auto;
 }
-.noticia a p{
+.noticia a p, .noticia a pre{
     margin: 0rem;
 }
-.noticia a p:hover{
+.noticia a p:hover, .noticia a pre:hover{
     color: blue;
+    font-size: 1.6rem;
+}
+#Empresas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 6rem;
+}
+
+#Empresas div{
+    margin:1rem 6rem;
+    padding: 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right,var(--c-main), var(--c-accent1)) border-box;
+    border: 1px solid transparent;
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+
+}
+#Empresas div p{
+    font-size: 1.3rem;
+}
+
+#Empresas div p:first-of-type{
+    color: blue;
+    font-weight: 600;
 }
