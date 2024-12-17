@@ -1,7 +1,7 @@
 /*NAV STYLING*/
 header{
     display: flex;
-    height: 6rem;
+    height: 8rem;
     padding: 0.5rem;
 }
 header *  {
@@ -16,8 +16,8 @@ nav ul{
     justify-content: center;
 }
 nav a{
-    margin: 0 3vw;
-    padding: 0 1rem;
+    margin: 0 1.5vw;
+    padding: 0 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,14 +26,14 @@ nav a{
 nav li{
     list-style: none;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color:#444444;
     height: auto;
 }
 nav li:hover{
     color:#0047AB;
-    font-size:1.9rem;
+    font-size:1.4rem;
 }
 header input[type="checkbox"], .hamburger-lines{
    display: none;
